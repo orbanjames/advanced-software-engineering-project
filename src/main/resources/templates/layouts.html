@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com" xmlns="http://www.w3.org/1999/html" lang="en">
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+
+</head>
+    <ul th:fragment = "foo">
+        <li><a th:href="@{/}">Home</a></li>
+        <li><a th:href="@{/employees}">Employees</a></li>
+        <li><a th:href="@{/projects}">Projects</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</html>
