@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com" xmlns="http://www.w3.org/1999/html" lang="en">
+<head th:replace="layouts :: header"> </head>
+<body>
+
+<ul th:replace="layouts :: foo"> </ul>
+
+
+<h4> Current Tasks </h4>
+<!--Add new project-->
+
+<a th:href="@{/tasks/new}"> New Task </a>
+
+<table>
+    <thead>
+    <tr>
+        <th>Task Name </th>
+        <th>Task Stage </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="aTask: ${tasks}">
+        <td th:text="${aTask.name}"/>
+        <td th:text="${aTask.stage}"/>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
