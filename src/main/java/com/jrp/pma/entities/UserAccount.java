@@ -26,6 +26,7 @@ public class UserAccount {
 
     }
 
+
     public long getUserId() {
         return userId;
     }
