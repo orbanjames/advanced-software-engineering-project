@@ -1,4 +1,4 @@
-#PROJECT-MANAGEMENT-SYSTEM(PMS)
+#PROJECT-MANAGEMENT-APPLICATION(PMA)
 
 This is a project work for the course title: Advanced Software Engineering on Master studies submitted in the Department of Software Engineering and Computer Science, Faculty of Organisational Sciences, UNIVERSITY OF BELGRADE, SERBIA. It is an additional experience using spring boot-2/ spring-framework-5 fully implemented using java Programming Language. The application is more of a CRUD application with some additional logics added to inplements the pie chart for completed and in progress projects. 
 
@@ -29,6 +29,8 @@ password: "postgres"
 I used PgAdmin to run a postgreSQL Server on my localhost.
 
 
+
+
 #STARTING THE APPLICATION:
 
 You can CLICK on the MAIN ProjectManagementApplication Class and run the entire project 
@@ -36,9 +38,15 @@ You can CLICK on the MAIN ProjectManagementApplication Class and run the entire 
 http://localhost:8080, navigate to the browser for the application home page. http://localhost:8080 for postman test.
 
 
+
+
 #TESTING THE APPLICATION
 
 I USED J-UNIT TEST AND YOU CNA TEST THE APPLICATION BY RUNNING ALL THE UNITS OR ENTITIES/THEIR UNITS.
+
+
+
+
 
 
 LICENSE
