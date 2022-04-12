@@ -17,7 +17,9 @@ I use postgresql, for data storage and manipulation,
 I have created a database "projectmanager", and you can find the connection in the "Application dev-properties"
 
 spring.datasource.url=jdbc:postgresql://localhost:5433/projectmanager
+
 spring.datasource.username=postgres
+
 spring.datasource.password=postgres
 
 spring.datasource.initialization-mode=never
