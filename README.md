@@ -20,7 +20,7 @@ classname: "com.postgresql.cj.jdbc.Driver"
 
 subprotocol: "postgres"
 
-subname: "//localhost:5433/student_management_system"
+subname: "//localhost:5433/projectmanager"
 
 user: "postgres"
 
@@ -35,7 +35,7 @@ I used PgAdmin to run a postgreSQL Server on my localhost.
 
 You can CLICK on the MAIN ProjectManagementApplication Class and run the entire project 
 
-http://localhost:8080, navigate to the browser for the application home page. http://localhost:8080 for postman test.
+Login to http://localhost:8080, navigate to the browser for the application home page and executes all the functions listed functions listed above
 
 
 
