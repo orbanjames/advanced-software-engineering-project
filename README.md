@@ -16,15 +16,15 @@ The following functions can be executed on the web page after successfully conne
 I use postgresql, for data storage and manipulation, 
 I have created a database "projectmanager", and you can find the connection in the "Application dev-properties"
 
-classname: "com.postgresql.cj.jdbc.Driver"
+spring.datasource.url=jdbc:postgresql://localhost:5433/projectmanager
+spring.datasource.username=postgres
+spring.datasource.password=postgres
 
-subprotocol: "postgres"
+spring.datasource.initialization-mode=never
 
-subname: "//localhost:5433/projectmanager"
+spring.jpa.hibernate.ddl-auto=update
 
-user: "postgres"
-
-password: "postgres"
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
 I used PgAdmin to run a postgreSQL Server on my localhost.
 
