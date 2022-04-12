@@ -13,7 +13,8 @@ The following functions can be executed on the web page after successfully conne
 
 #DATABASE - CONNECTION PARAMETERS
 
-I use postgresql, for data storage and manipulation, 
+I use postgresql, for data storage and manipulation,
+
 I have created a database "projectmanager", and you can find the connection in the "Application dev-properties"
 
 spring.datasource.url=jdbc:postgresql://localhost:5433/projectmanager
@@ -37,7 +38,7 @@ I used PgAdmin to run a postgreSQL Server on my localhost.
 
 You can CLICK on the MAIN ProjectManagementApplication Class and run the entire project 
 
-Login to http://localhost:8080, navigate to the browser for the application home page and executes all the functions listed functions listed above
+Login to http://localhost:8080, explore the application home page to executes all the listed functions above
 
 
 
