@@ -40,7 +40,7 @@ You can CLICK on the MAIN ProjectManagementApplication Class and run the entire 
 
 Login to http://localhost:8080, explore the application home page to executes all the listed functions above
 
-
+![](Homepage.png)
 
 
 #TESTING THE APPLICATION
